@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run tag
-      - uses: ejfitzgerald/action-docker-tag@main
+      - name: Run tag action
+        uses: ejfitzgerald/action-docker-tag@main
