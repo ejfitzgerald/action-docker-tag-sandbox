@@ -10,6 +10,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run tag action
-        uses: ejfitzgerald/action-docker-tag@68c13c908e8121f29885f7b1707cbf4dab671341
+        uses: ejfitzgerald/action-docker-tag@95b02a1fa06c08bb2285a92294b6046b3b9ce95e
         with:
           repo: foobar
