@@ -11,3 +11,5 @@ jobs:
 
       - name: Run tag action
         uses: ejfitzgerald/action-docker-tag@main
+        with:
+          repo: foobar
